@@ -1,0 +1,10 @@
+1-Seçim yaparken büyük küçük harf farketmez. Programda a veya A basılması arasında bir fark yoktur.
+2- Tuşlar: 
+A,a ->sola git
+D,d->sağa git 
+W,w-> aynalama yaptırt
+S,s->silme işlemi
+O,o->Programı sonlandır.
+3-Programı çalıştırma komutu mingw32-make söz dizisidir.
+4- Program 32 bit adresler yazdırmak üzerine kurulmuştur o yüzden mingw32-make kısmı önemlidir. 64 bit adres yazımı için çok fazla yazım alanı ayrılacağından ve bu 32 bitlik adreslerin yazımında kötü göstereceğinden 12 hanelik yazım boşluğu tercih edilmiştir. 
+5- agaclar.txt dosyasındaki aradaki boşluklar önemsizdir. A B c ile ABc arasında programın okuma mantığı açısından bir fark yoktur. 
